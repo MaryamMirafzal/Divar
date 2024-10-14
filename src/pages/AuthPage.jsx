@@ -1,9 +1,9 @@
 import { useState } from "react"
-import CheckOTPForm from "../components/templates/CheckOTPForm"
-import SendOTPForm from "../components/templates/SendOTPForm"
+import CheckOTPForm from "components/templates/CheckOTPForm"
+import SendOTPForm from "components/templates/SendOTPForm"
 
 function AuthPage() {
-    const [ step , setStep ] = useState(2)
+    const [ step , setStep ] = useState(1)
     const [ mobile , setMobile ] = useState("")
     const [ code , setCode ] = useState("")
   return (

@@ -1,5 +1,5 @@
 
-import { sendOtp } from '../../Services/auth';
+import { sendOtp } from 'Services/auth';
 
 function SendOTPForm({mobile , setMobile, setStep}) {
 
