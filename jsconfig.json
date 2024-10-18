@@ -1,17 +1,35 @@
+// {
+//     "compilerOptions": {
+//         "baseUrl": ".",
+//         "paths": {
+//             "src/*":["/src/*"],
+//             "components/*":["/src/components/*"],
+//             "layout/*":["/src/layout/*"],
+//             "configs/*":["/src/configs/*"],
+//             "pages/*":["/src/pages/*"],
+//             "styles/*":["/src/styles/*"],
+//             "Services/*":["/src/Services/*"],
+//             "utils/*":["/src/utils/*"],
+//             "assets/*":["/src/assets/*"],
+//             "router/*":["/src/router/*"],
+//         }
+//     }
+// }
+
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "baseUrl": "src", // اینجا baseUrl را به src تغییر دهید
         "paths": {
-            "src/*":["/src/*"],
-            "components/*":["/src/components/*"],
-            "layout/*":["/src/layout/*"],
-            "configs/*":["/src/configs/*"],
-            "pages/*":["/src/pages/*"],
-            "styles/*":["/src/styles/*"],
-            "Services/*":["/src/Services/*"],
-            "utils/*":["/src/utils/*"],
-            "assets/*":["/src/assets/*"],
-            "router/*":["/src/router/*"],
+            "*": ["*"],
+            "components/*": ["components/*"],
+            "layout/*": ["layout/*"],
+            "configs/*": ["configs/*"],
+            "pages/*": ["pages/*"],
+            "styles/*": ["styles/*"],
+            "Services/*": ["Services/*"],
+            "utils/*": ["utils/*"],
+            "assets/*": ["assets/*"],
+            "router/*": ["router/*"]
         }
     }
 }
