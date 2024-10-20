@@ -7,5 +7,6 @@ export const paths = [
     'pages', 
     "Services", 
     'styles',
-    'utils'
+    'utils',
+    'modules'
 ];
