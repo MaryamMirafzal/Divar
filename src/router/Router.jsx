@@ -19,12 +19,13 @@ function Router() {
 
   if(isLoading) return <Loader />
   return (
+    
     <Routes>
         <Route index element={<HomePage />} />
         <Route path="/auth" element={data ? <Navigate to="/dashboard" /> : <AuthPage />} />
         <Route path="/dashboard" element={data ? <DashboardPage /> : <Navigate to="/auth" />} />
         <Route path="/admin" 
-        element={ data && data.data?.role === "ADMIN" ? <AdminPage />: <Navigate to="/"/>} />
+        element={ data && data?.role === "ADMIN" ? <AdminPage />: <Navigate to="/"/>} />
         <Route path="*" element={<PageNotFound />} />
     </Routes>
   )
