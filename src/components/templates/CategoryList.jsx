@@ -1,6 +1,6 @@
 
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import Loader from "modules/Loader";
+import Loader from "components/modules/Loader";
 import { getCategory, deleteCategory } from "Services/admin";
 import styles from "./CategoryList.module.css";
 
