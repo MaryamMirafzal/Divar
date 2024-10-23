@@ -16,5 +16,6 @@ const getProfile = async () => {
 
 const getPost = async ()=>await api.get("post/my")
 
+const getAllPost = async ()=> await api.get("")
 
-export { getProfile, getPost }
+export { getProfile, getPost, getAllPost }
