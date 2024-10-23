@@ -14,6 +14,7 @@ const getProfile = async () => {
    }
 };
 
+const getPost = async ()=>await api.get("post/my")
 
 
-export { getProfile }
+export { getProfile, getPost }
